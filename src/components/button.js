@@ -8,13 +8,20 @@ class Button extends Component {
   }
 
   render() {
-    const { value } = this.props;
-    return <button type="button" className="btn">{value}</button>;
+    const { value, color, width } = this.props;
+    const styles = { ...color, ...width };
+    return (
+      <button type="button" className="btn" style={styles}>
+        {value}
+      </button>
+    );
   }
 }
 
 Button.propTypes = {
   value: PropTypes.isRequired,
+  color: PropTypes.string.isRequired,
+  width: PropTypes.string.isRequired,
 };
 
 export default Button;
