@@ -45,7 +45,7 @@ class Calculator extends Component {
             placeholder="0"
             type="text"
             value={display()}
-            onChange={() => console.log('')}
+            onChange={() => ''}
           />
         </div>
         <div className="line">
