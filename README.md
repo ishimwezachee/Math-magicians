@@ -1,7 +1,7 @@
 # Math-Magicians
 
-> This is a calculator which created with Reactjs Library
-> Using class components.   
+> This is a calculator which created with Reactjs Library.
+> I have built it using both class and functional components  
 
 
 ## Built With
