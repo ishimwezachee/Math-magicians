@@ -22,3 +22,57 @@
   text-align: right;
   font-size: 18px;
 }
+
+.nav {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+h1 {
+  font-size: 70px;
+  color: rgb(255, 208, 0);
+  margin: 20px;
+}
+
+h2 {
+  margin: 20px;
+  font-size: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  padding: 25px;
+  font-weight: 500;
+}
+
+li:hover {
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 153, 0);
+}
+
+.text {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.quote {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.quote h3 {
+  margin: 2px;
+  font-size: 35px;
+}
