@@ -66,3 +66,13 @@ a {
   font-size: 20px;
   margin: 20px;
 }
+
+.quote {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.quote h3 {
+  margin: 2px;
+  font-size: 35px;
+}
