@@ -1,9 +1,17 @@
 import React from 'react';
 
 const Navbar = () => (
-  <div>
-    <h1>This is Navbar</h1>
-  </div>
+  <ul className="nav">
+    <li>
+      <a href="#home">Home</a>
+    </li>
+    <li>
+      <a href="#calc">Calculator</a>
+    </li>
+    <li>
+      <a href="#quote">Quotes</a>
+    </li>
+  </ul>
 );
 
 export default Navbar;
