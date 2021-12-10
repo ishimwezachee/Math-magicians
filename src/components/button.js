@@ -23,13 +23,14 @@ Button.propTypes = {
   value: PropTypes.string,
   color: PropTypes.objectOf(PropTypes.any),
   width: PropTypes.objectOf(PropTypes.any),
-  click: PropTypes.func.isRequired,
+  click: PropTypes.func,
 };
 
 Button.defaultProps = {
   width: {},
   value: '',
   color: {},
+  click: () => '',
 };
 
 export default Button;
